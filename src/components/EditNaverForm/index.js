@@ -1,7 +1,5 @@
 import React, { useCallback, useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { yupResolver } from '@hookform/resolvers/yup';
-import * as yup from 'yup';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 
 import Header from '../Header';
@@ -14,15 +12,6 @@ import api from '../../services/api';
 import DialogModal from '../DialogModal';
 
 const EditNaverForm = () => {
-  // const schema = yup.object().shape({
-  //   name: yup.string().required('Campo obrigatório'),
-  //   birthdate: yup.required('Campo obrigatório'),
-  //   project: yup.string().required('Campo obrigatório'),
-  //   job_role: yup.required('Campo obrigatório'),
-  //   admission_date: yup.required(),
-  //   url: yup.string().required('Campo obrigatório'),
-  // });
-
   const navigate = useNavigate();
   const { id } = useParams();
 
