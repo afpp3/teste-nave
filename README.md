@@ -1,5 +1,5 @@
 <h1 align="center">
-    🚀  <a href="https://nave.rs/" alt="site nave"> Navedex </a>
+    🚀  <a href="https://teste-nave.vercel.app/" alt="site nave"> Navedex </a>
 </h1>
 
 <p align="center">
@@ -24,7 +24,7 @@
 - [Sobre o projeto](#-sobre-o-projeto)
 - [Funcionalidades](#-funcionalidades)
 - [Layout](#-layout)
-- [Layout](#-preview)
+- [Preview](#-preview)
 - [Como executar o projeto](#-como-executar-o-projeto)
   - [Pré-requisitos](#pré-requisitos)
   - [Rodando a aplicação web (Frontend)](#user-content--rodando-a-aplicação-web-frontend)
@@ -73,7 +73,17 @@ O sistema consiste em uma web app para visualização e criação dos navers, po
 
 ## 🔥 Preview
 
-[![Deploy with Vercel](https://vercel.com/button)]()
+Use as seguintes informações para logar:
+
+<p>
+  email: testing-andre-felippe1@nave.rs
+</p>
+
+<p>
+  password: nave1234
+</p>
+
+[![Deploy with Vercel](https://vercel.com/button)](https://teste-nave.vercel.app/)
 
 ## 🚀 Como executar o projeto
 
@@ -113,7 +123,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
 - **[Axios](https://github.com/axios/axios)**
-- **[React Hoock Form](https://react-hook-form.com/)**
+- **[React Hook Form](https://react-hook-form.com/)**
 - **[CSS Modules](https://github.com/css-modules/css-modules)**
 
 ## 🦸 Autor
