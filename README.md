@@ -48,6 +48,7 @@ O sistema consiste em uma web app para visualização e criação dos navers, po
 - [x] Cadastro de navers na plataforma
 - [x] Edição de navers cadastrado
 - [x] Exclusão de navers cadastrado
+- [x] Design Responsivo
 
 ---
 
