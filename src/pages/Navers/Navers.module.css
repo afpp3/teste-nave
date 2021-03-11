@@ -1,0 +1,67 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.header a {
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 1rem 2.5rem;
+  background: var(--black);
+  color: var(--white);
+  border: 0;
+  transition: opacity 0.3s;
+}
+
+.header a:hover {
+  opacity: 0.9;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-columns: auto;
+  gap: 2.5rem;
+
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.card img {
+  width: 380px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.card strong {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+}
+
+.card p {
+  line-height: 1.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.card a + a {
+  padding: 0.25rem;
+  margin-right: 1rem;
+}
+
+@media (max-width: 40rem) {
+  .cardContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 64rem) {
+  .cardContainer {
+    grid-template-columns: 1fr;
+  }
+}

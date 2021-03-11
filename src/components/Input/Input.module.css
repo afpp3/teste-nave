@@ -1,0 +1,32 @@
+.input {
+  border: 1px solid var(--black);
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  transition: 0.2s;
+}
+
+.input > input {
+  margin-bottom: 1.25rem;
+}
+
+.input:focus,
+.input:hover {
+  outline: unset;
+  border-color: var(--details);
+  box-shadow: 0 0 0 1px var(--details);
+}
+
+.input::placeholder {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--black);
+}
+
+.label {
+  padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  display: block;
+}

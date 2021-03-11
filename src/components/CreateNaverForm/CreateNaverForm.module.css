@@ -1,0 +1,48 @@
+.container {
+  width: 40%;
+
+  margin: 0 auto;
+
+  margin-top: 4rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.75rem;
+}
+
+.header a {
+  display: flex;
+  margin-right: 0.875rem;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  grid-row-gap: 0.875rem;
+}
+
+.form input {
+  margin-bottom: 2rem;
+}
+
+.form button {
+  grid-area: 2/2;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 90vw;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form button {
+    margin-bottom: 2rem;
+  }
+}

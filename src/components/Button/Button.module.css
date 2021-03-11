@@ -1,0 +1,14 @@
+.button {
+  width: 100%;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 0.875rem;
+  background: var(--black);
+  color: var(--white);
+  border: 0;
+  transition: opacity 0.3s;
+}
+
+.button:hover {
+  opacity: 0.9;
+}

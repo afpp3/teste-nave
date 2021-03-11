@@ -1,0 +1,105 @@
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  z-index: 1000;
+  padding: 2rem calc(4rem + 15px) 2rem 4rem;
+}
+
+.closeModal {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 2000;
+}
+
+.photo {
+  display: grid;
+  grid-template-columns: 28rem 38rem;
+  grid-template-rows: auto;
+  margin: auto;
+  height: 28rem;
+  border-radius: 0.2rem;
+  background: white;
+  overflow: hidden;
+
+  opacity: 0;
+  transform: scale(0.8);
+  animation: scaleUp 0.3s forwards;
+}
+
+@keyframes scaleUp {
+  to {
+    opacity: initial;
+    transform: initial;
+  }
+}
+
+.details {
+  position: relative;
+  padding: 2rem 2rem 0 3rem;
+}
+
+.details h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.details > p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-top: 0.825rem;
+  margin-bottom: 1.5rem;
+}
+
+.details strong {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.icons {
+  margin-top: 6rem;
+}
+
+.icons a {
+  padding: 0.25rem;
+}
+
+.icons a + a {
+  margin-left: 0.425rem;
+}
+
+@media (max-width: 40rem) {
+  .modal {
+    padding: 2rem calc(2rem + 15px) 2rem 2rem;
+  }
+}
+
+@media (max-width: 64rem) {
+  .photo {
+    height: auto;
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
+    grid-template-columns: minmax(20rem, 40rem);
+  }
+
+  .img {
+    grid-row: 1;
+  }
+
+  .details {
+    padding: 2rem;
+  }
+
+  .closeModal {
+    right: 50px;
+  }
+
+  .icons {
+    margin-top: 6rem;
+  }
+}

@@ -1,70 +1,142 @@
-# Getting Started with Create React App
+<h1 align="center">
+    🚀  <a href="https://nave.rs/" alt="site nave"> Navedex </a>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/afpp3/README-ecoleta?color=%2304D361">
 
-## Available Scripts
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/afpp3/README-ecoleta">
 
-In the project directory, you can run:
+  <a href="https://github.com/afpp3/teste-nave/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/afpp3/README-ecoleta">
+  </a>
 
-### `yarn start`
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/afpp3/teste-nave/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/afpp3/README-ecoleta?style=social">
+  </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <a href="https://rocketseat.com.br">
+    <img alt="Feito pela Rocketseat" src="https://img.shields.io/badge/feito%20por-Rocketseat-%237519C1">
+  </a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  <a href="https://blog.rocketseat.com.br/">
+    <img alt="Stargazers" src="https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=flat&logo=ghost">
+    </a>
 
-### `yarn test`
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h4 align="center">
+	🚧   Concluído 🚀 🚧
+</h4>
 
-### `yarn build`
+# Tabela de conteúdos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!--ts-->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Sobre o projeto](#-sobre-o-projeto)
+- [Funcionalidades](#-funcionalidades)
+- [Layout](#-layout)
+- [Layout](#-preview)
+- [Como executar o projeto](#-como-executar-o-projeto)
+  - [Pré-requisitos](#pré-requisitos)
+  - [Rodando a aplicação web (Frontend)](#user-content--rodando-a-aplicação-web-frontend)
+- [Tecnologias](#-tecnologias)
+  - [WebSite](#user-content-website--react----typescript)
+- [Autor](#-autor)
+<!--te-->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💻 Sobre o projeto
 
-### `yarn eject`
+O sistema consiste em uma web app para visualização e criação dos navers, possuindo informações como: nomes, idades, cargos, tempo de empresa e projetos que participou.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Projeto desenvolvido durante a **NLW - Next Level Week** oferecida pela [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## ⚙️ Funcionalidades
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [x] Login na plataforma
+- [x] Rotas autenticadas para acessar as funcionalidades da plataforma
+- [x] Listagem dos navers ao fazer login
+- [x] Visualização detalhada do naver selecionado
+- [x] Cadastro de navers na plataforma
+- [x] Edição de navers cadastrado
+- [x] Exclusão de navers cadastrado
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎨 Layout
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
 
-### Code Splitting
+<p align="center" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/login.png" width="500px">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/home.png" width="500px">
 
-### Analyzing the Bundle Size
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p align="center" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/naver-details.png" width="500px">
 
-### Making a Progressive Web App
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/create-naver.png" width="500px">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+</p>
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🔥 Preview
 
-### Deployment
+[![Deploy with Vercel](https://vercel.com/button)]()
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🚀 Como executar o projeto
 
-### `yarn build` fails to minify
+### Pré-requisitos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+#### 🧭 Rodando a aplicação web (Frontend)
+
+```bash
+
+# Clone este repositório
+$ git clone git@github.com:afpp3/teste-nave.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd teste-nave
+
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação em modo de desenvolvimento
+$ yarn start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000 no seu navegador
+
+```
+
+---
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+#### **Website** ([React](https://reactjs.org/))
+
+- **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+- **[Axios](https://github.com/axios/axios)**
+- **[React Hoock Form](https://react-hook-form.com/)**
+- **[CSS Modules](https://github.com/css-modules/css-modules)**
+
+## 🦸 Autor
+
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/29411637?s=460&u=61f735732a7a599dc45bb21a7a64cf46a1a7d563&v=4" width="100px;" alt="Profile Image"/>
+ <br />
+ <sub><b>André Felippe</b></sub></a> <a href="https://www.linkedin.com/in/andre-felippe/" title="Linkedin"></a>
+ <br />
+
+[![Linkedin Badge](https://img.shields.io/badge/-André-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/andre-felippe/)](https://www.linkedin.com/in/andre-felippe/)
+[![Gmail Badge](https://img.shields.io/badge/-afelipp3@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:afelipp3@gmail.com)](afelipp3@gmail.com)

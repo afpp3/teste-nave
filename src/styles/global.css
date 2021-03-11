@@ -1,0 +1,63 @@
+:root {
+  --white: #fff;
+  --background: ##e5e5e5;
+  --black: #212121;
+  --details: #6b5cca;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+@media (max-width: 180px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+}
+
+body,
+input,
+textarea,
+button {
+  font: 400 1rem 'Montserrat', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 95vw;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
