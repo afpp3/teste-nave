@@ -3,26 +3,13 @@
 </h1>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/afpp3/README-ecoleta?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/afpp3/teste-nave?color=%2304D361">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/afpp3/README-ecoleta">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/afpp3/teste-nave">
 
   <a href="https://github.com/afpp3/teste-nave/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/afpp3/README-ecoleta">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/afpp3/teste-nave">
   </a>
-
-   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/afpp3/teste-nave/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/afpp3/README-ecoleta?style=social">
-  </a>
-
-  <a href="https://rocketseat.com.br">
-    <img alt="Feito pela Rocketseat" src="https://img.shields.io/badge/feito%20por-Rocketseat-%237519C1">
-  </a>
-
-  <a href="https://blog.rocketseat.com.br/">
-    <img alt="Stargazers" src="https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=flat&logo=ghost">
-    </a>
 
 </p>
 
@@ -50,8 +37,6 @@
 
 O sistema consiste em uma web app para visualização e criação dos navers, possuindo informações como: nomes, idades, cargos, tempo de empresa e projetos que participou.
 
-Projeto desenvolvido durante a **NLW - Next Level Week** oferecida pela [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/).
-
 ---
 
 ## ⚙️ Funcionalidades
@@ -71,16 +56,16 @@ Projeto desenvolvido durante a **NLW - Next Level Week** oferecida pela [Rockets
 <br>
 
 <p align="center" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/login.png" width="500px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/login.png" width="400px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/home.png" width="500px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/home.png" width="400px">
 
 </p>
 
 <p align="center" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/naver-details.png" width="500px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/naver-details.png" width="400px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/create-naver.png" width="500px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/create-naver.png" width="400px">
 
 </p>
 
